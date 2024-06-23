@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/abstract-blue-circle-black-background-technology_1142-12714.avif') center/cover fixed no-repeat; /* Adjusted background image */
+    color: white; /* Changed text color to white */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    overflow: hidden; /* Prevents child elements from overflowing with background */
+}
+
+/* Logo styles */
+.logo {
+    display: block;
+    margin: 0 auto; /* Center logo */
+    width: auto; /* Adjust logo width */
+    max-width: 100%; /* Ensure logo doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Title styles */
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Form container styles */
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input and button styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Thumbnail container styles */
+.thumbnail-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thumbnail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Status message styles */
+.status {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffc107; /* Yellow background for status */
+    color: #333;
+    border-radius: 4px;
+}
+
+/* Download link styles */
+.download-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border-radius: 4px;
+}
+
+.download-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Hide elements initially */
+.hidden {
+    display: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube to MP3 Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            <img src="images/DD-Production-6-23-2024.png" alt="Logo" class="logo"> <!-- Adjusted path and added class for logo -->
+            YouTube to MP3 Converter
+        </h1>
+        <div class="form-container">
+            <label for="urlInput">Enter YouTube URL:</label>
+            <input type="text" id="urlInput" placeholder="Paste YouTube URL...">
+            <button id="convertBtn">Convert to MP3</button>
+        </div>
+        <div id="thumbnailContainer" class="thumbnail-container hidden">
+            <img id="thumbnailImg" class="thumbnail-image" src="" alt="YouTube Thumbnail">
+        </div>
+        <div id="status" class="status hidden"></div>
+        <div id="downloadLink" class="download-link hidden">
+            <a id="downloadBtn" class="download-button" href="#" download>Download MP3</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
